@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+<main>    
+<hr>
+<br>
+<table>
+    <tr>
+       <th>Name
+        
+       </th>
+    <th> Roll num.</th>
+    </tr>
+
+    <td>Waqar</td>
+    <td>223344</td>
+</table>
+<form action="/action.php">
+    <input type="text" placeholder="Type Name Here">
+    <input type="password" placeholder="password">
+  <br>
+  <label id="101" >
+    <input type="radio" value=" Class 11" name="class" id="101"> class 11
+    </lebal>
+    <br><br>
+     <label id="102" >
+    <input type="radio" value=" Class 12" name="class" id="102"> class 12
+    </lebal>
+    <br><br>
+    <h3> Select Your Subject</h3>
+    <br><br>
+    <label for="phy">
+       <input type="checkbox" value="Phy" name="subject" id="101">Physics
+    </label>
+    <br><br>
+    <label for="BIO">
+       <input type="checkbox" value="bio" name="subject" id="BIO">BIOLOGY
+    </label>
+    <br><br>
+    <label for="Chem">
+       <input type="checkbox" value="Chem" name="subject" id="Chemm">Chemistry
+       </label>
+       <br><br>
+    <label for="cs">
+       <input type="checkbox" value="cs" name="subject" id="cs">Comp.cs
+    </label>
+    <br><br>
+<select name="City">
+    <option value="Isb">ISB</option>
+    <option value="KPK">KPK</option>
+    <option value="GB">GB</option>
+</select>
+<br><br>
+    <textarea name="Feedback" id="101" placeholder="Please give your feedback here" rows="6"> </textarea>
+</form>
